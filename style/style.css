@@ -1,0 +1,71 @@
+nav{
+    background-color: white;
+    padding:5px;
+    border-radius: 5px;
+}
+
+nav ul{
+    text-align:center;
+    font-size: 1,2em;
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: purple;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border:2px solid palevioletred;
+    border-radius: 10px;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color: palevioletred;
+}
+
+header{
+    background-color: rgb(255, 0, 157);
+    padding: 10px;
+}
+
+footer{
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+    padding:2%;
+}
+
+th,td,tr{
+    text-align: left;
+    border: 1px solid black;
+}
+body{
+    font-family: Verdana;
+}
+#active{
+    border: 2px solid tan;
+}
