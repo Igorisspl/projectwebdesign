@@ -51,7 +51,7 @@ footer p{
 }
 
 table{
-    width: 100%;
+    width: 80%;
     border: 1px solid black;
     border-collapse: collapse;
     font-size: 20px;
@@ -68,4 +68,9 @@ body{
 }
 #active{
     border: 2px solid tan;
+}
+#background{
+    height: 100%;
+    width:100%;
+    background-image: url(https://c8.alamy.com/comp/HCT23T/genuine-leather-vector-label-real-leather-sign-symbol-icon-emblem-HCT23T.jpg);
 }
