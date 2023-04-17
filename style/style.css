@@ -42,7 +42,7 @@ footer{
     bottom: 0px;
     width: 100%;
     background-color: black;
-
+    height: 5%;
 }
 
 footer p{
@@ -69,8 +69,103 @@ body{
 #active{
     border: 2px solid tan;
 }
-#background{
-    height: 100%;
-    width:100%;
+ .background{
+    
     background-image: url(https://c8.alamy.com/comp/HCT23T/genuine-leather-vector-label-real-leather-sign-symbol-icon-emblem-HCT23T.jpg);
+    background-size: 5%;
+} 
+#sale{
+    color: red;
 }
+aside{
+    float:right;
+    width: 30%;
+    height: 20%;
+    border-color:black ;
+    background-color: rgb(237, 135, 216);
+    border-radius: 50px;
+    text-align: center;
+}
+button{
+    width: 35px;
+    height: 25px;
+
+}
+#leftbutton{
+    float: left;
+}
+#rightbutton{
+    float: right;
+    
+}
+.list{
+    border-radius: 5px;
+    border: 1px solid black;
+    width: fit-content;
+}
+.logoincrease :hover{
+    size: 300;
+
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  .required{
+    color: red;
+  }
+  .overlay {
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 50%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .socialmedia:hover .overlay {
+    opacity: 1;
+  }
+  #leftside{
+    float: left;
+    width: 200px;
+  }
+  #rigthside{
+    height: 300px;
+  }
+  #childshoe{
+    margin-left: 300px;
+  }

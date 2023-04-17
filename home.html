@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <!--
-    Author: Igor Kups
+    Author: ££££ $$$$
     Date Created: 16/03/23
-    
     --> 
 
     <html lang = "eng"> 
@@ -10,16 +9,17 @@
         <meta charset="utf-8" />
         <meta name="description" content="Home page for shoe shop website">
         <meta name="keywords" content="Quality Leather Shoes">
-        <meta name="author" content="Igor Kups">
+        <meta name="author" content="££££ $$$$">
         <title>Una Donna Shoe Shop</title>
-        <link rel="stylesheet" type="text/css" href="style/style.css"/>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico.png">
     </head>
     <body>  
 
         <header>
             <img style="float:left;margin-right: 10px;" src="images/Fairy-Logo.png" alt="logo" width="110" height="50">
             <h1>Una Donna Italian Style Shoe Shop</h1>
-            <nav>
+            <nav class="background">
                <ul>
                 <li id="active"><a  href="home.html" width = "30%">Home</a> </li>
                 <li><a href="women.html" width = "30%">Womens Shoes</a></li>
@@ -32,18 +32,38 @@
         <main> 
 
         <section>
-            <center><h2>Easter Sale</h2></center>
-            
-            <img src="images/Kids Shoes.jpg" alt="kid shoes" width="30%" height="350px">
-            <img src="images/Mens Shoes.jpg" alt="Mens shoes" width="30%" height="350px">
-            <img src="images/Womens Shoes.webp" alt="Womens Shoes" width="30%" height="350px">
-            
-        </section>
+            <center><h2 id="sale"> 50% Easter Sale 50%</h2></center>
         
-       
+            <img src="images/Kids Shoes.jpg" alt="KidShoes" width="30%" height="350px">
+            <img src="images/Mens Shoes.jpg" alt="MensShoes" width="30%" height="350px">
+            <img src="images/Womens Shoes.webp" alt="WomenSshoes" width="30%" height="350px">
+         
+        </section>
+        <article><h2>In order to see our target demographic we kindly ask our customers to fill in some of their details </h2></article>
+        <div class="form">
+        <form action="home.html">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name...">
+        
+            <label for="age"> Age <span class="required"><b>*</b></span></label>
+            <input type="text" id="age" name="age" placeholder="Your Age...">
+        
+            <label for="Gender">  Gender <span class="required"><b>*</b></span> </label>
+            <select id="Gender" name="Gender">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+              =
+            </select>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
         </main>
         <footer>
-            <p>Copyright© 2023 Igor Kups</p>
+            <p>Copyright© 2023 Una Donna</p>
         </footer>
 
     </body>
